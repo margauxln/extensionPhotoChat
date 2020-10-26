@@ -1,4 +1,4 @@
-Navigateur : Chrome
+Navigateur : Chrome <br/>
 Niveau du projet : 2
 Utilité : au lancement de l'extension, remplacer les images du site par celles d'un chat
 Prochaines étapes : dans le popup, choisir parmi 4 photos - celle qui remplacera toutes les images du site
