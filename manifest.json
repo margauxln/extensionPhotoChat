@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Change all pict",
+  "description": "Change all pict",
+  "version": "1.0",
+  "permissions":[
+     "http://*/",
+     "https://*/",
+     "storage"
+   ],
+  "icons": {
+    "48": "iconh1.png"
+  },
+
+  "content_scripts": [
+  {
+    "matches": ["<all_urls>"],
+    "all_frames": true,
+    "js": ["content.js"]
+  }
+],
+
+"web_accessible_resources": ["images/kitten.jpg"],
+"browser_action": {
+  "default_icon": "iconh12.png",
+  "default_title": "Bouh",
+  "default_popup": "popup.html"
+}
+}
