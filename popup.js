@@ -1,4 +1,5 @@
-
+// Creer d'une variable bouton pour chaque image pré-définie puis au clic lancer la fonction qui va permettre de remplacer les imgs (à faire sorrry)
+// Apparemment il faut utiliser la fonction browser.tabs.executeScript pour lier le popup.js avec le content.js :) let's go baby!
 var btnKitten = document.getElementById("kitten");
 btnKitten.addEventListener('click', function () {
 console.log("kitten");
